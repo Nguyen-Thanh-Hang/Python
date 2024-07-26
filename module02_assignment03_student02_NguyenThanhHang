@@ -1,0 +1,18 @@
+#Dùng input để nhập dữ liệu
+thv = input('Tên học viên: ')
+idhv = int(input('ID học viên: '))
+#Dùng int để nhận giá trị nguyên
+th = int(input('Số thứ tự tuần học: '))
+bt = int(input('Số thứ tự bài tập: '))
+#Thay khoảng cách trong tên học viên bằng gạch dưới
+ten_hoc_vien_khong_dau = thv.replace(" ", "_")
+#Thay thế các biến trong dấu ngoặc nhọn bằng giá trị thực tế của chúng, tạo ra một chuỗi hoàn chỉnh là tên file
+ten_file = f"{ten_hoc_vien_khong_dau}_{idhv}_tuan{th}_bai{bt}.py"
+#Dùng print in ra kết quả
+print(ten_file)
+
+#Output: Tên học viên: Nguyễn Thanh Hằng
+#Output: ID học viên: 015386
+#Output: Số thứ tự tuần học: 3
+#Output: Số thứ tự bài tập: 4
+#Output: Nguyễn_Thanh_Hằng_015386_tuan3_bai4.py
