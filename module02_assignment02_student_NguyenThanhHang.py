@@ -1,7 +1,6 @@
 #Viết bình phương của số nguyên
 a = int(input('số nguyên:'))
-b=2
-print(pow(a, b))
+print(pow(a, 2))
 #số nguyên:2
 #4
 
