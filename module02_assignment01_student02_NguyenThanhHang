@@ -1,0 +1,21 @@
+(a) Các kí tự đặc biệt không được phép xuất hiện trong tên biến (https://topdev.vn/blog/quy-tac-dat-ten-bien-trong-python/)
+
+(b) Tên biến hợp lệ: name
+    Tên biến không hợp lệ: n@me
+
+(c) Ví dụ, bạn có 1 list apples, và 1 list oranges trong hệ thống thì thay vì chọn tên như list1, list2 bạn hãy lưu chúng dưới những cái tên rõ ràng như list_apples, list_oranges
+
+(d) 
+numberofcollegestudents: tên biến tạo bởi các kí tự chữ thường
+NUMBEROFCOLLEGESTUDENTS: tên biến tạo bởi các kí tự chữ in hoa
+numberOfCollegeStudents: viết thường ở từ đầu tiên và viết hoa chữ cái đầu tiên của mỗi từ tiếp theo
+NumberOfCollegeStudents: tên biến dùng kí tự in hoa ở đầu mỗi từ
+number_of_college_students: tên biến có gạch dưới ngăn cách giữa các từ viết bằng chữ thường 
+
+(e) (http://surl.li/mofstd)
+Snake case: tất cả các từ đều viết thường, ngăn cách giữa các từ bằng kí tự gạch dưới "_", sử dụng để tạo biến hoặc đặt tên phương thức, đặt tên file, giúp dễ đọc. Ví dụ: snake_case
+Kebab Case: tất cả các từ đều viết thường, ngăn cách giữa các từ bằng ký tự gạch ngang “-”, sử dụng để tạo biến hoặc đặt tên phương thức, đặt tên file, URL, giúp dễ đọc. Ví dụ: kebab-case
+Camel case: viết thường từ đầu tiên, viết hoa chữ cái đầu tiên của mỗi từ tiếp theo, thường được dùng trong Java, Javascript, TypeScript khi đặt variable, function, và tên method.  Ví dụ: camelCase
+Pascal case: chữ cái đầu tiên của mỗi từ đều được viết hoa, thường được dùng trong Java, Javascript, TypeScript khi đặt variable, function, và tên method.  Ví dụ: PascalCase
+
+(f) Snake case
