@@ -1,0 +1,8 @@
+#Viết bình phương của số nguyên
+a = int(input('số nguyên:'))
+print (a**2)
+#Output: số nguyên:2
+#Output: 4
+
+#Dùng hàm int để lấy giá trị nguyên
+#Dùng hàm input để nhập giá trị
