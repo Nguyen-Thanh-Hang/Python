@@ -1,0 +1,7 @@
+Bài tập 3. pip
+(a) Công cụ pip được sử dụng vào mục đích gì? (https://mimpython.github.io/pythonSummerCourse/lesson-03-pip/)
+- Mục đích: Giups người dùng cài đặt, cài đặt lại hoặc gỡ cài đặt các gói PyPI bằng một dòng lệnh đơn giản và dễ hiểu
+(b) Giải thích ý nghĩa của câu lệnh pip freeze. (http://surl.li/poanwn)
+- Hiển thị danh sách các gói đã được cài đặt, bao gồm phiên bản của chúng, thường được sử dụng để tạo file cho việc chia sẻ yêu cầu cài đặt của dự án với người khác.
+(c) Chỉ ra một công cụ khác có chức năng tương tự pip (http://surl.li/itfqcz)
+- Poetry
