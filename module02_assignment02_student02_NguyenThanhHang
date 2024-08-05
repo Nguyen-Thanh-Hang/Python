@@ -1,8 +1,9 @@
-#Viết bình phương của số nguyên
-a = int(input('số nguyên:'))
-print (a**2)
-#Output: số nguyên:2
+num = -2
 #Output: 4
+num = 2.5
+#Output: không phải số nguyên
 
-#Dùng hàm int để lấy giá trị nguyên
-#Dùng hàm input để nhập giá trị
+if isinstance(num, int): #Dùng isinstance() để kiểm tra số nguyên
+    print(num**2) 
+else:
+    print("không phải số nguyên")
