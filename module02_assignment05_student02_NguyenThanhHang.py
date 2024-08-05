@@ -66,7 +66,7 @@ print(len(A)==len(B)) #Output: True
 #Tạo list C
 C = []
 #Dùng append thêm list A và list B vào list C
-C.append([A]+[B])
+C = A + B
 #In kết quả
 print(C)
-#Output: [[[70, 43, 7, 46, 34, 77, 80, 35, 49, 3, 1, 5, 53, 3, 53], [80, 77, 70, 53, 53, 49, 46, 43, 35, 34, 7, 5, 3, 3, 1]]]
+#Output: [70, 43, 7, 46, 34, 77, 80, 35, 49, 3, 1, 5, 53, 3, 53,80, 77, 70, 53, 53, 49, 46, 43, 35, 34, 7, 5, 3, 3, 1]
