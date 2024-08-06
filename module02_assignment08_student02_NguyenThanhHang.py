@@ -45,13 +45,14 @@ print()
 #**
 #*
 #(3) Hollow Inverted Half Pyramid
-print(' '*6, '*')
-print(' '*5,'* '*2)
-print(' '*4, '* '*3)
-print(' '*3, '* '*4)
-print(' '*2,'* '*5)
-print(' ', '* '*6)
-print('(4) Full Pyramid')
+full = 6
+for i in range(full):
+    for j in range(full-1-i): #Tạo khoảng trắng
+        print(' ', end="")
+    for j in range(i+1): #In các dấu *
+        print('*', end = ' ')
+    print()
+print("(4) Full Pyramid")
 print()
 #Output:
 #     *           
@@ -62,13 +63,14 @@ print()
 #* * * * * *      
 #(4) Full Pyramid  
 
-print(' ', '* '*6)
-print(' '*2,'* '*5)
-print(' '*3, '* '*4)
-print(' '*4, '* '*3)
-print(' '*5,'* '*2)
-print(' '*6, '*')
-print('(5) Inverted Full Pyramid')
+inverted_full = 7
+for i in range(inverted_full):
+    for j in range(i+1): #Tạo các khoảng trắng cho từng dòng
+        print(' ', end="")
+    for j in range(inverted_full-i-1): #In các dấu * 
+        print('*', end = ' ')
+    print() 
+print("(5) Inverted Full Pyramid")
 print()
 #Output:
 #* * * * * *               
@@ -79,13 +81,16 @@ print()
 #     *               
 #(5) Inverted Full Pyramid      
 
-print(' '*6, '* ')
-print(' '*5, '*', '*')
-print(' '*4, '*', ' ', '*')
-print(' '*3, '* ', ' '*2, '*')
-print(' '*2, '*', ' '*5, '*')
-print(' ', '* '*6)
-print('(6) Hollow Full Pyramid')
+hollow_full = 6
+for i in range(hollow_full):
+    if i == 0:
+        print(' '*(hollow_full-1)+'* ')
+    elif i > 0 and i < (hollow_full - 1):
+        print(' '*(hollow_full-i-1)+'* '+'  '*(i-1)+'* ')
+    else: 
+        print('* '*hollow_full)
+print("(6) Hollow Full Pyramid")
+print()
 #Output: 
 #     *
 #    * *
