@@ -1,0 +1,16 @@
+thuong_xuyen = 9
+giua_ki = 9
+cuoi_ki = 9
+tong_ket = (thuong_xuyen + giua_ki*2 + cuoi_ki*3)/6
+if tong_ket >= 9:
+    print('A') 
+elif tong_ket >= 8:
+    print('B')
+elif tong_ket >= 7:
+    print('C')
+elif tong_ket >= 6:
+    print('D')
+else:
+    print('F')
+
+#Output: A
