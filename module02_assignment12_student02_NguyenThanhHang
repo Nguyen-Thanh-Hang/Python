@@ -1,0 +1,5 @@
+1, Nếu chỉ so sánh giá trị của các biến này, foo, bar và ham sẽ được coi là bằng nhau vì đều chứa ký tự 'a'. Nếu so sánh kiểu dữ liệu, chúng sẽ khác nhau
+2, foo và bar có cùng giá trị nhưng có thể là hai object khác nhau. Nếu sửa đổi giá trị của foo, nó sẽ không ảnh hưởng đến bar vì chúng là các object riêng biệt.
+Bài học rút ra:
+Phân biệt giữa so sánh giá trị (==) và so sánh kiểu dữ liệu (is) của biến.
+Python lưu trữ các string ngắn trong một pool để tiết kiệm bộ nhớ.
