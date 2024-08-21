@@ -5,3 +5,4 @@ while i*i < number:
         number = number / i
     i = i + 1
 print(number)
+#Output: 6857.0
