@@ -29,3 +29,6 @@ num_trials = 10**6
 N = 10**6
 P = experiment(N, num_trials)
 print("Xác suất P =", P)
+
+#Output: ƯCLN của 411039 và 577727 là 1
+#        Xác suất P = 0.607851
